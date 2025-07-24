@@ -62,22 +62,8 @@
     "vary": "^1.1.2"
   },
   "devDependencies": {
-    "after": "0.8.2",
-    "connect-redis": "^8.0.1",
-    "cookie-parser": "1.4.7",
-    "cookie-session": "2.1.0",
     "ejs": "^3.1.10",
-    "eslint": "8.47.0",
-    "express-session": "^1.18.1",
-    "hbs": "4.2.0",
-    "marked": "^15.0.3",
-    "method-override": "3.0.0",
-    "mocha": "^10.7.3",
-    "morgan": "1.10.0",
-    "nyc": "^17.1.0",
-    "pbkdf2-password": "1.2.1",
-    "supertest": "^6.3.0",
-    "vhost": "~3.0.2"
+    "eslint": "8.47.0"
   },
   "engines": {
     "node": ">= 18"
@@ -90,10 +76,6 @@
     "lib/"
   ],
   "scripts": {
-    "lint": "eslint .",
-    "test": "mocha --require test/support/env --reporter spec --check-leaks test/ test/acceptance/",
-    "test-ci": "nyc --exclude examples --exclude test --exclude benchmarks --reporter=lcovonly --reporter=text npm test",
-    "test-cov": "nyc --exclude examples --exclude test --exclude benchmarks --reporter=html --reporter=text npm test",
-    "test-tap": "mocha --require test/support/env --reporter tap --check-leaks test/ test/acceptance/"
+    "lint": "eslint ."
   }
 }
