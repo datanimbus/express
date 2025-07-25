@@ -1,5 +1,5 @@
 {
-  "name": "express",
+  "name": "@datanimbus/express",
   "description": "Fast, unopinionated, minimalist web framework",
   "version": "4.21.2-latest",
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
